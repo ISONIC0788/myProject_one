@@ -1,0 +1,79 @@
+.cont-for-project-body{
+    /* background-color: skyblue; */
+    padding: 50px 40px;
+}
+.org-slider-project-img{
+    height: 370px;
+    width: 370px;
+     border-radius: 1rem;
+     position: relative;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+}
+.org-slider-project-img:hover {
+    margin-top: -1rem;
+}
+
+.org-slide-project-descr{
+    background-color: blueviolet;
+    position:absolute;
+    height: 370px;
+    width: 370px;
+    border-radius: 1rem;
+    display: none;
+
+}
+.container-for-all-project-link{
+    position: relative;
+    /* margin-top: 5rem; */
+}
+.org-slider-project-img:hover .org-slide-project-descr{
+    display: block;
+}
+.desc-in-porject{
+    display: grid;
+    place-content: center;
+}
+.button-view-project{
+    display: grid;
+    place-content: center;
+
+}
+
+
+.cont-for-all-org-project{
+    padding: 100px 60px ;
+}
+
+
+
+
+/* HEADER  BUTTON */
+.menu-link-display-btn{
+    border: 2px solid #737373;
+    background-color: transparent;
+    border-radius: 0.4rem;
+    color:#737373;
+}
+.more-btn-navsvg {
+    fill: #737373;
+}
+.menu-link-display-btn:hover {
+    border: 2px solid white;
+    color: white;
+}
+.menu-link-display-btn:hover .more-btn-navsvg {
+fill: white;
+}
+.cont-for-mobile-fit-svg{
+    padding:3px
+}
+.container-for-all-project-link{
+    background-color: ;
+}
+.cont-for-chat-svg{
+
+
+}
+hr {
+   /* border-color: azure; */
+}
