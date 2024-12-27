@@ -68,7 +68,7 @@ fill: white;
     padding:3px
 }
 .container-for-all-project-link{
-    background-color: ;
+    /* background-color: ; */
 }
 .cont-for-chat-svg{
 
@@ -76,4 +76,208 @@ fill: white;
 }
 hr {
    /* border-color: azure; */
+}
+
+.abaut-simple{
+    padding: 10px 5px;
+}
+/* new abaut booton */
+.btn-abaut-me{
+    border : 1px solid white
+}
+/* other up date  */
+.cont-for-between-wavy{
+    margin-top: 15vh;
+}
+.social-medi-cont{
+    display: flex;
+}
+.abaut-footer{
+    display: flex;
+    justify-content: center;
+   
+}
+.org-icon{
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
+
+    /* box-shadow: 1px 3px ; */
+}
+.cont-for-ind-svg{
+    padding: 5px 5px;
+}
+.cont-body-skills{
+    background: url(./Assert/video/animation_code.mp4);
+}
+.cont-body-skills-two{
+    display: flex;
+    margin-top: 20vh;
+    justify-content: space-around;
+}
+.header-for-technical-all-skills{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+}
+.hr-of-div{
+background-color: black;
+height: 2px;
+}
+.container-hear-footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding:  30px 0px;
+    font-size: 20px;
+    background-image: linear-gradient(to right,rgb(226, 44, 226) ,rgb(44, 181, 226),white );
+     -webkit-background-clip: text;
+     color: transparent;
+
+}
+.container-for-footer{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 30px;
+}
+.hr-separator-div{
+    /* background-color: #737373; */
+    height: 3px;
+    background-image: linear-gradient(to right,rgb(226, 44, 226) ,rgb(44, 181, 226),white );
+    padding: 0px 10px;
+    border-radius: 360px;
+}
+.cont-for-line{
+    padding: 0px 70px;
+}
+.footer-container{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    /* background-color: white; */
+}
+ul .footer-link {
+    list-style: none;
+    padding: 0px 5px ;
+}
+.cont-for-foote-link{
+    display: flex;
+}
+
+.footermyname{
+    /* background-color: white;
+    color: black; */
+    color: black; 
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    padding: 2px;
+    /* background-color: #737373; */
+    background-image: linear-gradient(to right,rgb(226, 44, 226) ,rgb(44, 181, 226),white 100% );
+    /* -webkit-background-clip: text; */
+}
+.container-foo-ffoote{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.footer-name-link{
+    color: white;
+    text-decoration: none;
+}
+.out-side-link{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-style: italic;
+}
+.body-for-myskills .list-cont-for-tech-skills{
+    list-style: none;
+}
+.or-item-tech-skills{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 5px 10px;
+    /* justify-content: center; */
+}
+.list-cont-for-tech-skills{
+    padding: 10px;
+}
+
+/* for project  */
+.cont-for-project-org{
+    width: 350px;
+    height: 250px ;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+}
+.cont-for-project-org-header{
+    padding: 10px;
+    /* color: white; */
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    background-image: linear-gradient(to right,rgb(226, 44, 226) ,rgb(44, 181, 226) );
+     -webkit-background-clip: text;
+     color: transparent;
+}
+.link-button-to-repo{
+    width: 150px;
+    /* display: flex; */
+    display: flex;
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+
+    border: 1px solid white;
+    font-weight: 600;
+    background-color: #737373;
+}
+.activity-desc{
+    padding: 5px;
+}
+.body-repo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.footer-repo-clone-app{
+    color: white;
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+    justify-content: center;
+    /* bottom: 0px; */
+    padding: 10px ;
+    margin-top: 10px;
+    /* background-color: white; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cont-for-project-body{
+    display: flex;
+    justify-content: space-around;
+}
+.descrption-abaot-project{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px ;
+    padding: 10px;
+}
+/* for abaut  */
+.open-class-duable-quate{
+    font-size: 40px;
+    font-weight: bold;  
+}
+.lang-used{
+    background-color: #737373;
+    border-radius: 10px;
 }
