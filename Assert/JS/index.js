@@ -62,5 +62,38 @@ words.forEach(words =>{
     })
     maintimeline.add(texttimeline)
 })
+let tl = gsap.timeline()
 
+tl.from(".log , ul",{
+    y:-30,
+    duration:1,
+    delay:1,
+    opacity :0,
+    stagger:0.15
+})
+tl.from(".header-org-body",{
+    x:-100,
+    duration:1,
+    delay:1,
+    opacity:0
+})
+tl.from(".class-text-title",{
+    x:-200,
+    duration:1,
+    delay:1,
+    opacity:0
+})
+tl.from(".text-cont",{
+    y:100,
+    duration:1,
+    delay:1,
+    opacity:0
+})
+tl.from(".cont-for-btn",{
+    y:100,
+    duration:1,
+    delay:1,
+    opacity:0
+    // repeat:1
+})
 
