@@ -200,6 +200,8 @@ ul .footer-link {
     /* border: 1px solid black; */
     display: flex;
     padding: 5px 10px;
+    color: white;
+    background-color: black;
     /* justify-content: center; */
 }
 .list-cont-for-tech-skills{
@@ -280,4 +282,44 @@ ul .footer-link {
 .lang-used{
     background-color: #737373;
     border-radius: 10px;
+}
+@media (max-width:400px){
+    .cont-body-skills-two{
+        display: block;
+    }
+    .contain-header{
+        display: block;
+    }
+    .log-responsive{
+        display: flex;
+        justify-content: center;
+    }
+    .cont-nav{
+        display: flex;
+        justify-content: center;
+        scroll-behavior:inherit;
+
+    }
+    .cont-org-abaut{
+        padding: 2rem;
+    }
+    .cont-all-skills{
+       padding: 2rem;
+    }
+    .cont-for-all-org-project{
+        padding: 2rem;
+    }
+    .cont-for-project-body {
+        display: block;
+        padding: 2rem;
+    }
+    .cont-for-between-wavy{
+        /* height: 10 rem; */
+        padding: 0px;
+        
+      
+    }
+    .cont-body-skills-two{
+        margin-top: 2rem;
+    }
 }
